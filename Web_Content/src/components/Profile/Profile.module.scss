@@ -1,0 +1,39 @@
+.profile-wrapper {
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--white-color);
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.profile-detail-wrapper {
+    display: block;
+    margin: auto 0;
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+.profile-information {
+    display: block;
+}
+
+.profile-information-item {
+    display: flex;
+}
+
+.profile-information-item-title {
+    margin-right: 10px;
+}
+
+.profile-information-skill {
+    margin-top: 20px;
+}

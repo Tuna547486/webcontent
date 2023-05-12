@@ -1,0 +1,56 @@
+.save-job-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    padding-top: 10px;
+}
+
+.save-job-item {
+    display: flex;
+    width: 340px;
+    height: 100px;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: var(--border-radius);
+    margin: 0 0 10px 11px;
+}
+
+.save-job-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto 10px;
+}
+
+.save-job-content {
+    display: block;
+    padding-top: 10px;
+}
+
+.save-job-content-Information {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.save-job-content-Information-apply,
+.save-job-content-Information-delete {
+    font-size: 13px;
+    border: 1px solid;
+    border-radius: var(--border-radius);
+    padding-top: 2px;
+    text-align: center;
+}
+
+.save-job-content-Information-apply {
+    width: 80px;
+    height: 25px;
+    background-color: #ccf9ff;
+    color: var(--text-color);
+}
+
+.save-job-content-Information-delete {
+    width: 55px;
+    height: 25px;
+}

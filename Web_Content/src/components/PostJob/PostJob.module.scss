@@ -1,0 +1,49 @@
+.postJob-wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto 10px;
+}
+
+.postJob-item {
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    width: 520px;
+    height: 40px;
+    margin: 5px 0 0 0;
+    border-radius: 280px;
+}
+
+.postJob-item-input {
+    border: none;
+    width: 100%;
+    outline: none;
+    margin: 0 18px;
+    background-color: #dddddd;
+}
+
+.postJob-btn {
+    width: 90px;
+    height: 30px;
+    margin: auto 10px;
+    background-color: var(--button-color);
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    border: 1px solid;
+    background: var(--button-color);
+}
+
+.postJob-btn:hover {
+    cursor: pointer;
+    background-color: var(--button-color-hover);
+}

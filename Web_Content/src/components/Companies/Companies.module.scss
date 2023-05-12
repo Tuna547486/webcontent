@@ -1,0 +1,22 @@
+.companies-wrapper {
+    min-height: 170px;
+    max-height: 700px;
+    display: block;
+    margin-bottom: 15px;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+}
+
+.companies-avatar {
+    width: 693px;
+    height: 225px;
+    margin: auto 10px;
+}
+
+.companies-content-name {
+    margin: auto 0;
+}
+
+.companies-content {
+    padding: 0 12px 10px 12px;
+}

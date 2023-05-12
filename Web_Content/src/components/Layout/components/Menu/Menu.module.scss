@@ -1,0 +1,63 @@
+.menu-wrapper {
+    border-bottom: 1px solid;
+    padding: 20px 0;
+}
+
+.list-menu-item {
+    list-style: none;
+    margin: 7px 0;
+}
+
+.list-menu-item-wrapper {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.list-menu-item-wrapper:active {
+    color: var(--text-color);
+}
+
+.list-menu-item-icon-job,
+.list-menu-item-icon-cv,
+.list-menu-item-icon-employer,
+.list-menu-item-icon-top-user,
+.list-menu-item-icon-table-feed,
+.list-menu-item-icon-save-job,
+.list-menu-item-icon-job-applied,
+.list-menu-item-icon-list-companies,
+.list-menu-item-icon-support {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.list-menu-item-icon-job {
+    color: #bef264;
+}
+
+.list-menu-item-icon-cv {
+    color: #3498db;
+}
+
+.list-menu-item-icon-top-user {
+    color: #ee5205;
+}
+
+.list-menu-item-icon-table-feed {
+    color: #ffc83b;
+}
+
+.list-menu-item-icon-save-job {
+    color: #fda3a3;
+}
+
+.list-menu-item-icon-job-applied {
+    color: #ccc0b6;
+}
+
+.list-menu-item-icon-list-companies {
+    color: #666165;
+}
+
+.list-menu-item-icon-support {
+    color: #d194b6;
+}

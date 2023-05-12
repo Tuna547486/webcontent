@@ -1,0 +1,41 @@
+.support-wrapper {
+    height: 300px;
+    display: block;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.support-title {
+    padding-top: 20px;
+}
+
+.support-contact {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 30px 0;
+}
+
+.support-contact-title {
+    margin-right: 10px;
+}
+
+.support-icon {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 20px 0;
+}
+
+.support-icon-fb,
+.support-icon-gmail {
+    font-size: 30px;
+}
+
+.support-icon-fb {
+    color: #0c88ef;
+}
+
+.support-icon-gmail {
+    color: #ee3124;
+    margin-left: 15px;
+}
